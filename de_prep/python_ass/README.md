@@ -22,14 +22,14 @@ Everything here is written, broken, fixed, and committed intentionally.
 
 ---
 ##structure
-
+```text
 python_ass/
 └── variables_print/
     ├── README.md              # Documentation for this module
     ├── var_print.py           # Basic usage of the print() function
     ├── var_assigning.py       # Variable creation, naming rules, and dynamic typing
     ├── print_operations.py    # Formatting output and string concatenation
-    └── print_error.py         # Intentional errors (Syntax vs. Runtime) to learn debugging
+    └── print_error.py         # Intentional errors (Syntax vs. Runtime)
 
 
 Each subfolder has its own README explaining:
