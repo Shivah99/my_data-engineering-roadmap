@@ -24,13 +24,15 @@ Everything here is written, broken, fixed, and committed intentionally.
 
 ## Structure (high level)
 
-├── python_ass/
-│ ├── variables_print/
-│ ├── README.md
-│ ├── var_print.py
-│ ├── var_assigning.py
-│ ├── print_operations.py
-│ ├── print_error.py
+python_ass/
+├── README.md
+└── variables_print/
+    ├── README.md
+    ├── var_print.py
+    ├── var_assigning.py
+    ├── print_operations.py
+    └── print_error.py
+
 
 
 
