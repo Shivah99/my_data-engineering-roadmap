@@ -29,8 +29,8 @@ python_ass/
     ├── var_print.py           # Basic usage of the print() function
     ├── var_assigning.py       # Variable creation, naming rules, and dynamic typing
     ├── print_operations.py    # Formatting output and string concatenation
-    └── print_error.py         # Intentional errors (Syntax vs. Runtime)
-
+    └── print_error.py         # Intentional errors (Syntax vs. Runtime) 
+```
 
 Each subfolder has its own README explaining:
 - what was learned
