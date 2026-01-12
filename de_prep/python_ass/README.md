@@ -21,17 +21,15 @@ This roadmap takes a different approach:
 Everything here is written, broken, fixed, and committed intentionally.
 
 ---
+##structure
 
-## Structure (high level)
-
-├── python_ass/
-│ └── variables_print/
-│ ├── README.md
-│ ├── var_print.py
-│ ├── var_assigning.py
-│ ├── print_operations.py
-│ ├── print_error.py
-│ └── ...
+python_ass/
+└── variables_print/
+    ├── README.md              # Documentation for this module
+    ├── var_print.py           # Basic usage of the print() function
+    ├── var_assigning.py       # Variable creation, naming rules, and dynamic typing
+    ├── print_operations.py    # Formatting output and string concatenation
+    └── print_error.py         # Intentional errors (Syntax vs. Runtime) to learn debugging
 
 
 Each subfolder has its own README explaining:
