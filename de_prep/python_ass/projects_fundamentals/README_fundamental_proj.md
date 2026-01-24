@@ -96,113 +96,116 @@ Requirements:
 - Swap two numbers provided by the user
 
 --------------------------------------------------
-PROJECT 3 – Geometry Utility
+PROJECT 3 – Geometry Calculator (Single-Run)
 --------------------------------------------------
 
 Concepts Used:
-arithmetic operators
-expressions
-reuse of variables
+- if / elif / else
+- arithmetic operators
 
-Description:
-A reusable geometry calculator based on user-selected shapes.
-
-Requirements:
-- Allow the user to choose:
-  rectangle
-  square
-  circle
-- Calculate and display:
-  area
-  perimeter or circumference
-
-Why This Matters:
-- Demonstrates parameterized logic
-- Avoids repetition and hardcoding
-- Mimics real utility programs
+Behavior:
+- Ask user to choose a shape (rectangle / square / circle)
+- Calculate area and perimeter
+- Exit after execution
 
 --------------------------------------------------
-PROJECT 4 – Billing System
+PROJECT 4 – Simple Billing System
 --------------------------------------------------
 
 Concepts Used:
-if / elif / else
-comparison operators
-logical operators
+- if / elif / else
+- comparison ranges
 
-Description:
-A slab-based billing engine that calculates charges based on usage.
-
-Requirements:
-- Take usage input from the user
-- Apply slab-based pricing rules
-- Calculate the final bill amount
-- Display a breakdown of the calculation
-
-Why This Matters:
-- Mirrors real-world billing systems
-- Uses conditional logic with ranges
-- Common in utility and service platforms
+Behavior:
+- Input usage value
+- Apply slab-based billing logic
+- Display final bill amount
 
 --------------------------------------------------
-PROJECT 5 – Student Evaluation System
+PROJECT 5 – Student Grade Classifier
 --------------------------------------------------
 
 Concepts Used:
-logical operators
-conditional statements
-comparison operators
+- chained comparisons
+- if / elif / else
 
-Description:
-A rule-based system to evaluate student performance.
-
-Requirements:
-- Take marks as input
-- Validate the input values
-- Calculate percentage
-- Assign grades based on rules
-- Display final evaluation result
-
-Why This Matters:
-- Represents decision-making systems
-- Demonstrates validation and branching
-- Widely used in academic platforms
+Behavior:
+- Input marks
+- Compute percentage
+- Assign grade based on rules
 
 --------------------------------------------------
-PROJECT 6 – Character Inspector
+PROJECT 6 – Number Properties Checker
 --------------------------------------------------
 
 Concepts Used:
-strings
-membership operator
-character inspection logic
+- arithmetic operators
+- conditionals
 
-Description:
-A character analysis tool for basic text preprocessing.
+Behavior:
+- Input an integer
+- Check and display:
+  - Positive / Negative / Zero
+  - Odd / Even
+  - Magnitude of the number
 
-Requirements:
-- Take a single character as input
-- Determine:
-  whether it is an alphabet or not
-  whether it is a vowel or consonant
-- Convert uppercase to lowercase and vice versa
+--------------------------------------------------
+PROJECT 7 – Character Inspector
+--------------------------------------------------
 
-Why This Matters:
-- Useful for input sanitization
-- Common in text processing pipelines
-- Foundational for handling user input
+Concepts Used:
+- string handling
+- membership operator (in)
+- if / else
+
+Behavior:
+- Input a single character
+- Check and display:
+  - Alphabet or not
+  - Vowel or consonant
+  - Uppercase or lowercase
+
+--------------------------------------------------
+PROJECT 8 – Cost & Profit Analyzer
+--------------------------------------------------
+
+Concepts Used:
+- arithmetic operators
+- conditionals
+
+Behavior:
+- Input selling price
+- Input profit
+- Compute cost price per item
+
+--------------------------------------------------
+PROJECT 9 – Comparison Utility
+--------------------------------------------------
+
+Concepts Used:
+- comparison operators
+- if / elif
+
+Behavior:
+- Input two or three numbers
+- Determine and display:
+  - Largest number
+  - Smallest number
+
+--------------------------------------------------
+PROJECT 10 – Eligibility Checker
+--------------------------------------------------
+
+Concepts Used:
+- logical operators
+- compound conditions
+
+Behavior:
+- Input age
+- Input score
+- Input status
+- Check eligibility based on defined rules
 
 ==================================================
 
-LEARNING OUTCOME
-
-By completing these projects, the learner gains:
-- Strong control over Python fundamentals
-- Confidence in writing complete programs
-- Experience structuring real-world logic
-- A solid base for data, backend, or automation work
-
-==================================================
-
-
----
+END OF DOCUMENT
